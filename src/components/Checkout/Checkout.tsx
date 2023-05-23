@@ -23,6 +23,10 @@ const Checkout: React.FC<Props> = ({
     handleTransactionSubmit,
     shipmentData
 }) => {
+
+    // todo: fetch from DB
+    const OWNER_WALLET_ADDRESS = "0x5359C8ea8c08a36DdFc63168df2a577062B51bf5"
+
     return (
         <section className="quote-area">
             <div className="container">
@@ -39,7 +43,7 @@ const Checkout: React.FC<Props> = ({
                                                 <div className="form-group">
                                                     <label htmlFor="amount">Address</label>
                                                     <input type="text" className="form-control border-0" 
-                                                        value="0x5359C8ea8c08a36DdFc63168df2a577062B51bf5" disabled
+                                                        value={OWNER_WALLET_ADDRESS} disabled
                                                     />
                                                 </div>
                                             </div>

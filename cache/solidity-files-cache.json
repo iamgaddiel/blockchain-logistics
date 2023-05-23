@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/iamme/Documents/Projects/School Projects/Veritas University/blockchain-project-1/blockchain-logistics/contracts/EtherTransfer.sol": {
+      "lastModificationDate": 1684217594219,
+      "contentHash": "ed50dd7479b434852cf29bfb084c7e48",
+      "sourceName": "contracts/EtherTransfer.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "EtherTransfer"
+      ]
+    }
+  }
+}

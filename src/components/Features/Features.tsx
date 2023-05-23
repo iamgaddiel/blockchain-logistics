@@ -20,7 +20,7 @@ const Features = () => {
                                     <img src={Feature1} alt="" />
                                     <h4>Shipment Tracking</h4>
                                     <p>
-                                        The French Revolutioncons tituted for the conscience of the dominant the French Revolutioncons.
+                                        Monitor your shipment using a unique shipping ID personal to your wallet.
                                     </p>
                                     <a href="index.html#">Find your cargo</a>
                                 </div>
@@ -30,7 +30,7 @@ const Features = () => {
                                     <img src={Feature2} alt="" />
                                     <h4>Have a Question?</h4>
                                     <p>
-                                        The French Revolutioncons tituted for the conscience of the dominant the French Revolutioncons.
+                                        Get in touch with our customer service personnel and get answers to all your questions or complaints.
                                     </p>
                                     <a href="index.html#">Contact Us</a>
                                 </div>
@@ -38,35 +38,28 @@ const Features = () => {
                             <div className="col-lg-6 col-md-6">
                                 <div className="single-feature">
                                     <img src={Feature3} alt="" />
-                                    <h4>Get a Quote</h4>
+                                    <h4>Leverage Blockchain</h4>
                                     <p>
-                                        The French Revolutioncons tituted for the conscience of the dominant the French Revolutioncons.
+                                        Utilize the Ethereum Blockchain to manage your transactions privately, make payments with cryptocurrency and be in charge of your shipment.
                                     </p>
-                                    <a href="index.html#">Start a quote</a>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <div className="single-feature">
                                     <img src={Feature4} alt="" />
-                                    <h4>Shipping Calculator</h4>
+                                    <h4>Work with us</h4>
                                     <p>
-                                        The French Revolutioncons tituted for the conscience of the dominant the French Revolutioncons.
+                                        Be a part of our story as we make worthwhile business transactions that are shaping the future.
                                     </p>
-                                    <a href="index.html#">Get Estimate</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-5 offset-md-0 col-md-12 text-left section-title-wrap mt-4 mt-lg-0">
                         <h5>About Our Company</h5>
-                        <h2> We’re Carefully <br />  Delivering your <br /> happiness. </h2>
-                        <h4>f you are looking at blank cassettes on the web lorem ipsum dolor sit consectetur adipisicing elit,
-                            eiusmod tempor incididunt.</h4>
+                        <h2>WE ARE USING BLOCKCHAIN TO REDEFINE LOGISTICS. </h2>
                         <p>
-                            If you are looking at blank cassettes on the web lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.
+                            Blockchain enables a shared, decentralized ledger that records and verifies transactions across multiple participants. This transparency allows all stakeholders, including manufacturers, suppliers, distributors, and customers, to have real-time visibility into the movement and status of goods.
                         </p>
                         <a href="index.html#" className="main_btn">Learn More About Us</a>
                     </div>

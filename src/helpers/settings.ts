@@ -10,9 +10,13 @@ import PocketBase from 'pocketbase'
  */
 const appName = "Lookum"
 
-const DEBUG = true
+const DEBUG = false
 
-const pocketbaseUrl = DEBUG ? "http://127.0.0.1:8090" : "https://"
+const LOCALHOST_URL = "http://127.0.0.1:8090"
+
+const REMOTE_URL = "https://blockchain-logistics.pockethost.io"
+
+const pocketbaseUrl = DEBUG ? LOCALHOST_URL  : REMOTE_URL
 
 const pb = new PocketBase(pocketbaseUrl)
 

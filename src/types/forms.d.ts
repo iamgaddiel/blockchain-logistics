@@ -9,6 +9,7 @@ export interface FormInputs {
     destination: string
     quanity: number
     weight: number
+    reciepient_email: string
     transportation_medium: "air" | "sea" | "land" 
     total?: number
 }

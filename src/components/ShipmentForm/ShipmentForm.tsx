@@ -35,6 +35,23 @@ const ShipmentForm = () => {
     const [shipementId, setShipementId] = useState("")
 
 
+    const contractAbi = [
+        {
+            "inputs": [
+                {
+                    "internalType": "address payable",
+                    "name": "_to",
+                    "type": "address"
+                }
+            ],
+            "name": "transferEther",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        }
+    ]
+
+
 
 
     const handleShipmentBooking: SubmitHandler<FormInputs> = async (data) => {
@@ -90,17 +107,34 @@ const ShipmentForm = () => {
         setScreen("checkout") // show checkout screen
     }
 
+    // const handleCryptoTransfer = async () => {
+    //     try {
+    //         const provider = new ethers.providers.JsonRpcProvider("http://localhost:8545");
+    //         const signer = provider.getSigner();
+    //         const contractAddress = "CONTRACT_ADDRESS"; // Replace with the deployed contract address
+    //         const contract = new ethers.Contract(contractAddress, contractAbi, signer);
+    //         const transaction = await contract.transferEther(address, { value: ethers.utils.parseEther(amount) });
+    //         await transaction.wait();
+    //         console.log("Transfer successful!");
+    //     } catch (error) {
+    //         console.error("Error transferring Ether:", error);
+    //     }
+    // };
+
 
     const handlePayment: SubmitHandler<TransactionInput> = async (data) => {
         try {
+            // create shipment
             const { isCreated, record: shipementRecord } = await createItem(SHIPMENTS_COLLECTIONS, formCollectionData!)
             logError(isCreated, "Could not create shipment")
 
+            // create transaction
             const transactionData = { ...data, shipment: shipementRecord?.id, amount: shipementRecord?.total }
             const { isCreated: createdTransaction } = await createItem(TRANSACTIONS_COLLECTIONS, transactionData)
             logError(createdTransaction, "Could not create transaction")
 
-            const historyData = { current_location: shipementRecord?.country_of_origin, shipement: shipementRecord?.id }
+            // create history
+            const historyData = { current_location: shipementRecord?.country_of_origin, shipment: shipementRecord?.id! }
             const { isCreated: createdHistory } = await createItem(HISTORY_COLLECTIONS, historyData)
             logError(createdHistory, "Could not create history")
 
@@ -117,9 +151,9 @@ const ShipmentForm = () => {
     }
 
 
-    function logError(created: boolean, msg: string) {
+    function logError(created: boolean, errorMsg: string) {
         if (!created) {
-            console.error(msg)
+            console.error(errorMsg)
             return;
         }
     }
@@ -154,6 +188,16 @@ const ShipmentForm = () => {
         />
     )
 
+
+    return (
+        <CollectionForm
+            handleShipmentBooking={handleShipmentBooking}
+            errors={errors}
+            handleSubmit={handleSubmit}
+            register={register}
+            loading={loading}
+        />
+    )
 
 }
 

@@ -26,12 +26,10 @@ const ServiceArea = () => {
                         </div>
                         <div className="service-box">
                             <h3>
-                                Did not find <br />
-                                your Package
+                                Sea Freight
                             </h3>
                             <p>
-                                inappropriate behavior is often laughed off as boys will be boys
-                                women face in higher conduct standards.
+                                Send bulky goods across the atlantic within and outside Africa using Zee Logistics.
                             </p>
                             <a href="index.html#">Learn More</a>
                         </div>
@@ -42,12 +40,10 @@ const ServiceArea = () => {
                         </div>
                         <div className="service-box">
                             <h3>
-                                Did not find <br />
-                                your Package
+                                Air Freight
                             </h3>
                             <p>
-                                inappropriate behavior is often laughed off as boys will be boys
-                                women face in higher conduct standards.
+                                Take advantage of speed and accuracy by utilizing our Air travel packages.
                             </p>
                             <a href="index.html#">Learn More</a>
                         </div>
@@ -58,12 +54,10 @@ const ServiceArea = () => {
                         </div>
                         <div className="service-box">
                             <h3>
-                                Did not find <br />
-                                your Package
+                                Land Freight
                             </h3>
                             <p>
-                                inappropriate behavior is often laughed off as boys will be boys
-                                women face in higher conduct standards.
+                                Send goods both locally and inter state via road and rail using Zee Logistics services
                             </p>
                             <a href="index.html#">Learn More</a>
                         </div>

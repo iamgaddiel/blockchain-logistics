@@ -90,13 +90,11 @@ const Home = () => {
               <div className="col-lg-7">
                 <div className="banner_content d-flex flex-md-row flex-column">
                   <div className="banner-left text-md-right">
-                    <h1 className="text-uppercase">Solid Super Service</h1>
+                    <h1 className="text-uppercase">Welcome to Zee Logistics</h1>
                   </div>
                   <div className="banner-right position-relative">
                     <p>
-                      If you are looking at blank cassettes on the web, you may be
-                      very confused at the difference in price You may see some
-                      for as low as each.
+                      Leverage the power of Blockchain technology to protect your transactions and be assured of safety, security and confidentiality.
                     </p>
                     <a className="main_btn mt-md-0 mt-4" href="index.html#">Explore More</a>
                   </div>
@@ -137,11 +135,10 @@ const Home = () => {
                 </div>
                 <div className="home-blog-box">
                   <a href="index.html#">
-                    <h4>Some statistics that we want to show</h4>
+                    <h4>Sea Freight</h4>
                   </a>
                   <p>
-                    If you are looking at blank cassettes
-                    on the web lorem ipsum dolor sit amet consectetur adipisicing.
+                    Send bulky goods across the atlantic within and outside Africa using Zee Logistics.
                   </p>
                   <div className="bottom d-flex">
                     <a href="index.html#">13th Mar, 2019</a>
@@ -157,11 +154,10 @@ const Home = () => {
                 </div>
                 <div className="home-blog-box">
                   <a href="index.html#">
-                    <h4>Some statistics that we want to show</h4>
+                    <h4>Air Freight</h4>
                   </a>
                   <p>
-                    If you are looking at blank cassettes
-                    on the web lorem ipsum dolor sit amet consectetur adipisicing.
+                    Take advantage of speed and accuracy by utilizing our Air travel packages.
                   </p>
                   <div className="bottom d-flex">
                     <a href="index.html#">13th Mar, 2019</a>
@@ -179,11 +175,10 @@ const Home = () => {
                 <div className="overlay"></div>
                 <div className="home-blog-box border-0">
                   <a href="index.html#">
-                    <h4 className="text-white">Some statistics that we want to show</h4>
+                    <h4 className="text-white">Land Freight</h4>
                   </a>
                   <p>
-                    If you are looking at blank cassettes
-                    on the web lorem ipsum dolor sit amet consectetur adipisicing.
+                    Send goods both locally and inter state via road and rail using Zee Logistics services.
                   </p>
                   <div className="bottom d-flex">
                     <a href="index.html#">13th Mar, 2019</a>
@@ -267,8 +262,8 @@ const Home = () => {
                 <script data-cfasync="false"
                   src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                 <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
-                <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                  target="_blank">Colorlib</a>
+                <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href=""
+                  target="_blank">Zee Logistics</a>
               </p>
             </div>
           </div>

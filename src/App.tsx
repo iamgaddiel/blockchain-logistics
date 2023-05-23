@@ -3,8 +3,8 @@ import Home from './screens/Home/Home'
 
 
 import "./assets/css/bootstrap.css"
-import "./assets/vendors/linericon/style.css"
-import "./assets/css/font-awesome.min.css"
+// import "./assets/vendors/linericon/style.css"
+// import "./assets/css/font-awesome.min.css"
 import "./assets/vendors/owl-carousel/owl.carousel.min.css"
 import "./assets/vendors/nice-select/css/nice-select.css"
 import "./assets/vendors/animate-css/animate.css"
